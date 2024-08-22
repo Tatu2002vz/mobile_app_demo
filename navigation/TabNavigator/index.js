@@ -1,4 +1,4 @@
-import Camera from '../../screens/Camera';
+import Camera from '../../screens/CameraScreen';
 import Contact from '../../screens/Contact';
 import FileManager from '../../screens/FileManager';
 import Gallery from '../../screens/Gallery';

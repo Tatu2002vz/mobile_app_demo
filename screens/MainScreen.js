@@ -1,5 +1,5 @@
 import {Text} from 'react-native';
-import Camera from './Camera';
+import Camera from './CameraScreen';
 import Contact from './Contact';
 import FileManager from './FileManager';
 import Gallery from './Gallery';
