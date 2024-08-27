@@ -1212,6 +1212,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@notifee/react-native@^7.8.2":
+  version "7.8.2"
+  resolved "https://registry.npmjs.org/@notifee/react-native/-/react-native-7.8.2.tgz"
+  integrity sha512-VG4IkWJIlOKqXwa3aExC3WFCVCGCC9BA55Ivg0SMRfEs+ruvYy/zlLANcrVGiPtgkUEryXDhA8SXx9+JcO8oLA==
+
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
   resolved "https://registry.npmjs.org/@pkgjs/parseargs/-/parseargs-0.11.0.tgz"
@@ -4372,6 +4377,11 @@ node-stream-zip@^1.9.1:
 normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
 
+notifee@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/notifee/-/notifee-0.0.1.tgz"
+  integrity sha512-R5DEyfQnhBR717u66Zut+Jx5MAOS4iLNSVEdsbiVcSzPH9S1gjxHEUJNnLnUmRTbvz8L8sUzhgkNMrtgm55UHg==
+
 npm-run-path@^4.0.1:
   version "4.0.1"
   dependencies:
@@ -4817,6 +4827,13 @@ react-native-gesture-handler@^2.18.1:
     "@egjs/hammerjs" "^2.0.17"
     hoist-non-react-statics "^3.3.0"
     invariant "^2.2.4"
+    prop-types "^15.7.2"
+
+react-native-push-notification-popup@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.npmjs.org/react-native-push-notification-popup/-/react-native-push-notification-popup-1.7.0.tgz"
+  integrity sha512-mk4AmqtVs7eRtEaf4s5xjOjbNEkz9V4o8jT1HwprIMGRDmIJoRL9jK8dEQXouCeZjhL41BILzRca1BV/tYE3EA==
+  dependencies:
     prop-types "^15.7.2"
 
 react-native-reanimated@*, react-native-reanimated@^3.15.0:
