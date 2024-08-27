@@ -2,7 +2,6 @@ import {Image, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 const NewsItem = props => {
   const {title, image_url, keywords, pubDate} = props.data;
-  console.log('image: ' + image_url);
   return (
     <View className="rounded-md p-2 flex flex-col border w-full text-blue-500 mt-4 first:mt-0">
       <View className="flex flex-row justify-between">
