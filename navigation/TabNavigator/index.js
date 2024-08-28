@@ -4,6 +4,7 @@ import FileManager from '../../screens/FileManager';
 import Gallery from '../../screens/Gallery';
 import Home from '../../screens/Home';
 import Notification from '../../screens/Notification';
+import NFCScreen from '../../screens/NFCScreen';
 import * as React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/AntDesign';
@@ -55,6 +56,7 @@ const TabNavigator = () => {
       <Tab.Screen name="Camera" component={Camera} />
       <Tab.Screen name="Thư viện" component={Gallery} />
       <Tab.Screen name="Thông báo" component={Notification} />
+      <Tab.Screen name="NFC" component={NFCScreen} />
     </Tab.Navigator>
   );
 };

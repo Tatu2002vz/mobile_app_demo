@@ -117,4 +117,5 @@ dependencies {
         implementation jscFlavor
     }
     implementation project(':react-native-vector-icons')
+    // implementation project(':@react-native-community_cameraroll')
 }
