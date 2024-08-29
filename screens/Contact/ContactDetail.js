@@ -5,7 +5,8 @@ import IonIcon from 'react-native-vector-icons/Ionicons';
 import ActionContact from '../../components/ActionContact';
 import IconFeather from 'react-native-vector-icons/Feather';
 import IconAnt from 'react-native-vector-icons/AntDesign';
-const ContactDetail = ({navigation}) => {
+const ContactDetail = ({navigation, route}) => {
+  const {contact} = route.params;
   return (
     <ScrollView className="flex-col h-screen px-4 relative">
       <Pressable
@@ -17,7 +18,7 @@ const ContactDetail = ({navigation}) => {
       </Pressable>
       <View className="items-center pt-10">
         <Icon name="user-circle-o" size={100} color={'blue'}></Icon>
-        <Text className="font-bold text-2xl mt-2">Tạ Văn Tú</Text>
+        <Text className="font-bold text-2xl mt-2">{contact.displayName}</Text>
       </View>
       <View className="flex-row justify-around pt-10">
         <ActionContact icon={'call'} />
@@ -27,8 +28,8 @@ const ContactDetail = ({navigation}) => {
       <View className="flex-row items-center pt-8">
         <IonIcon name="call-outline" size={28} color={'black'} />
         <View className="ml-4">
-          <Text>0384560758</Text>
-          <Text>Di động | Việt Nam</Text>
+          <Text>{contact.phoneNumbers[0].number}</Text>
+          <Text>{contact.phoneNumbers[0].label === 'mobile' ? 'Di động' : 'Máy bàn'} | Việt Nam</Text>
         </View>
       </View>
       <View className="pt-6">

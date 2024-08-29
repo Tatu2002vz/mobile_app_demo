@@ -4952,6 +4952,11 @@ react-native-nfc-manager@^3.15.1:
   dependencies:
     "@expo/config-plugins" "~8.0.0"
 
+react-native-nfc-passport-info@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/react-native-nfc-passport-info/-/react-native-nfc-passport-info-1.0.2.tgz"
+  integrity sha512-mkfzoxWWPtgO7Cp02DclJbHXzFeOKylYH2O8Ckz97NU0/mswcbtgqs4pZET/6/3fJzuU1kVh3w3UDeKLAkUbiQ==
+
 react-native-push-notification-popup@^1.7.0:
   version "1.7.0"
   resolved "https://registry.npmjs.org/react-native-push-notification-popup/-/react-native-push-notification-popup-1.7.0.tgz"

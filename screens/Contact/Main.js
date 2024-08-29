@@ -75,8 +75,9 @@ import {
         {copyContacts
           ?.sort((a, b) => a.displayName.localeCompare(b.displayName))
           .map((item, index) => {
+            if(index === 1) console.log('contact: ' + JSON.stringify(item))
             return (
-              <Pressable key={index} onPress={() => navigation.navigate('Details')}>
+              <Pressable key={index} onPress={() => navigation.navigate('Details', {contact: item})}>
                 <ContactItem item={item}  />
               </Pressable>
             );

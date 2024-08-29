@@ -11,7 +11,6 @@ const RootNavigator = () => {
   const dispatch = useDispatch();
   React.useEffect(() => {
     const getGrant = async () => {
-      console.log('abcd')
       // if (Platform.Version >= 33) {
       const granted = await PermissionsAndroid.request(
         PermissionsAndroid.PERMISSIONS.READ_CONTACTS,

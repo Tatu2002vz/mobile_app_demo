@@ -15,7 +15,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 //   import ContactDetail from './ContactDetail'
 import Detail from './Detail';
-import Home from './Main';
+import Home from './FileManager';
 // import moduleName from '../../'
 
 // Contacts.getAll().then(contacts => {
